@@ -147,6 +147,103 @@
       </div>
       <!-- - Cursor Follower-->
       <!-- PAGE HEADER -->
+      <header class="header header_menu-right header_fixed container-fluid js-header-sticky" id="page-header" data-arts-theme-text="dark" data-arts-header-sticky-theme="bg-white" data-arts-header-logo="primary" data-arts-header-sticky-logo="primary" data-arts-header-overlay-theme="light" data-arts-header-overlay-background="#ffffff">
+        <!-- top bar -->
+        <div class="header__container header__controls">
+          <div class="row justify-content-between align-items-center">
+            <!-- logo -->
+            <div class="col-auto header__col header__col-left"><a class="logo" href="index.html" target="_blank">
+                <div class="logo__wrapper-img">
+                  <!-- primary logo version (for light backgrounds)--><!-- <img class="logo__img-primary" src="img/general/logo-black.svg" alt="Advent Trinity Logo" height="20"/> -->
+                  <!-- secondary logo version (for dark backgrounds)--><!-- <img class="logo__img-secondary" src="img/general/logo-white.svg" alt="Advent Trinity Logo" height="20"/> -->
+                </div></a>
+            </div>
+            <!-- - logo -->
+            <!-- burger icon -->
+            <div class="col-auto header__col">
+              <div class="header__burger" id="js-burger" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.7" data-arts-cursor-magnetic="data-arts-cursor-magnetic" data-arts-cursor-hide-native="true">
+                <div class="header__burger-line"></div>
+                <div class="header__burger-line"></div>
+                <div class="header__burger-line"></div>
+              </div>
+            </div>
+            <!-- - burger icon -->
+            <!-- "back" button for submenu nav -->
+            <div class="header__overlay-menu-back" id="js-submenu-back">
+              <div class="arrow arrow-left js-arrow arrow_mini" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0" data-arts-cursor-magnetic="data-arts-cursor-magnetic">
+                <svg class="svg-circle" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
+                </svg>
+                <div class="arrow__pointer arrow-left__pointer"></div>
+                <div class="arrow__triangle"></div>
+              </div>
+            </div>
+            <!-- - "back" button for submenu nav -->
+          </div>
+        </div>
+        <!-- - top bar -->
+        <!-- fullscreen overlay container -->
+        <div class="header__wrapper-overlay-menu container-fluid container-fluid_paddings">
+          <!-- fullscreen menu -->
+          <div class="header__wrapper-menu">
+            <ul class="menu-overlay js-menu-overlay">
+              <li class="menu-item-has-children"><a class="h2" href="projects-slider-circle-covers-9.html" data-pjax-link="overlayMenu">
+                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Work</div></a>
+              </li>
+              <li><a class="h2" href="blog-grid-3-columns.html" data-pjax-link="overlayMenu">
+                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Blogs</div></a>
+              </li>
+              <li><a class="h2" href="page-inner-services-1.html" data-pjax-link="overlayMenu">
+                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Services</div></a>
+              </li>
+              <li><a class="h2" href="page-inner-about-1.html" data-pjax-link="overlayMenu">
+                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">About</div></a>
+              </li>
+              <li><a class="h2" href="page-inner-contacts-1.html" data-pjax-link="overlayMenu">
+                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Contact</div></a>
+              </li>
+              <li><a class="h2" href="page-inner-404-dark.html" data-pjax-link="overlayMenu">
+                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">404 Page</div></a>
+              </li>
+            </ul>
+          </div>
+          <!-- - fullscreen menu -->
+          <!-- fullscreen widgets -->
+          <div class="header__wrapper-overlay-widgets">
+            <div class="row">
+              <!-- widget TEXT -->
+              <div class="col-lg-4 header__widget">
+                <div class="header__widget-title small-caps js-split-text split-text" data-split-text-type="lines">Contacts</div>
+                <div class="header__widget-content js-split-text split-text" data-split-text-type="lines">
+                  <p><a href="rhye@example.com">info@adventtrinity.com</a><br/>+1 682-270-8035
+                  </p>
+                </div>
+              </div>
+              <!-- - widget TEXT -->
+              <!-- widget TEXT -->
+              <div class="col-lg-4 header__widget">
+                <div class="header__widget-title small-caps js-split-text split-text" data-split-text-type="lines">Office</div>
+                <div class="header__widget-content js-split-text split-text" data-split-text-type="lines">
+                  <p>2909 E Arkansas Ln<br/>Arlington, TX 76010
+                  </p>
+                </div>
+              </div>
+              <!-- - widget TEXT -->
+              <!-- widget TEXT -->
+              <div class="col-lg-4 header__widget">
+                <div class="header__widget-title small-caps js-split-text split-text" data-split-text-type="lines">Want to Work with Us?</div>
+                <div class="header__widget-content js-split-text split-text" data-split-text-type="lines">
+                  <p><a href="page-inner-contacts-1.html">Get in Touch</a><br/>
+                  </p>
+                </div>
+              </div>
+              <!-- - widget TEXT -->
+            </div>
+          </div>
+          <!-- - fullscreen widgets -->
+        </div>
+        <!-- - fullscreen overlay container -->
+      </header>
       <!-- - PAGE HEADER -->
       <!-- PAGE MAIN -->
       <div class="js-smooth-scroll bg-dark-1" id="page-wrapper" data-barba="container">
@@ -157,13 +254,13 @@
               <header class="row section-masthead__header justify-content-center">
                 <div class="col">
                   <div class="section-masthead__heading split-text js-split-text overflow" data-split-text-type="lines,chars" data-split-text-set="chars">
-                    <h1 class="xl mt-0 mb-0">We are a Creative Digital Marketing Agency that Connects Customers to your Brand.</h1>
+                    <h1 class="h1 mt-0 mb-0">We are a Creative Digital Marketing Agency that Connects Customers to your Brand.</h1>
                   </div>
                   <div class="w-100">
-                    <div class="section-masthead__subheading h4 mt-0-5 split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words"><span>We want your business to grow, and we believe that it all starts with your marketing strategy!</span></div>
+                    <div class="section-masthead__subheading p mt-0-5 split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words"><span>We want your business to grow, and we believe that it all starts with your marketing strategy!</span></div>
                   </div>
                   <div class="w-100">
-                    <div class="section-masthead__wrapper-button mt-xsmall"><a class="button button_bordered button_white" data-hover="Download Now" href="https://themeforest.net/item/rhye-ajax-portfolio-html5-template/26306579" target="_blank"><span class="button__label-hover">Download Now</span></a>
+                    <div class="section-masthead__wrapper-button mt-xsmall"><a class="button button_bordered button_white" data-hover="Learn More About Us" href="https://themeforest.net/item/rhye-ajax-portfolio-html5-template/26306579" target="_blank"><span class="button__label-hover">Learn More About Us</span></a>
                     </div>
                   </div>
                 </div>
@@ -172,7 +269,7 @@
                     <!-- curved label -->
                     <div class="circle-button__outer">
                       <div class="circle-button__wrapper-label">
-                        <div class="circle-button__label small-caps">View Our Projects</div>
+                        <div class="circle-button__label small-caps">View Our Case Studies</div>
                       </div>
                     </div>
                     <!-- - curved label -->
@@ -227,7 +324,7 @@
               <div class="section__headline mb-1 mb-md-2 mx-auto"></div>
               <div class="w-100"></div>
               <div class="section-content__heading split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
-                <h2>Our Work</h2>
+                <h2>Our Case Studies</h2>
               </div>
             </div>
           </section>
@@ -239,7 +336,7 @@
                 <div class="grid__item grid__item_desktop-4 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-3 grid__item_fluid-3-fancy grid__sizer js-grid__sizer"></div>
                 <div class="grid__item grid__item_desktop-4 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-3 grid__item_fluid-3-fancy js-grid__item">
                   <div class="section-grid__item">
-                    <div class="figure-image section-image"><a class="hover-zoom figure-image__link" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.6" data-arts-cursor-icon="keyboard_arrow_right" data-arts-cursor-hide-native="true" href="projects-slider-fullscreen-1.html" target="_blank">
+                    <div class="figure-image section-image"><a class="hover-zoom figure-image__link" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.6" data-arts-cursor-icon="keyboard_arrow_right" data-arts-cursor-hide-native="true" href="blog-grid-single-post-1.html">
                         <!-- zoom effect container -->
                         <div class="hover-zoom__inner">
                           <div class="hover-zoom__zoom">
@@ -261,7 +358,7 @@
                 </div>
                 <div class="grid__item grid__item_desktop-4 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-3 grid__item_fluid-3-fancy js-grid__item">
                   <div class="section-grid__item">
-                    <div class="figure-image section-image"><a class="hover-zoom figure-image__link" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.6" data-arts-cursor-icon="keyboard_arrow_right" data-arts-cursor-hide-native="true" href="projects-slider-fullscreen-2.html" target="_blank">
+                    <div class="figure-image section-image"><a class="hover-zoom figure-image__link" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.6" data-arts-cursor-icon="keyboard_arrow_right" data-arts-cursor-hide-native="true" href="blog-grid-single-post-1.html">
                         <!-- zoom effect container -->
                         <div class="hover-zoom__inner">
                           <div class="hover-zoom__zoom">
@@ -283,7 +380,7 @@
                 </div>
                 <div class="grid__item grid__item_desktop-4 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-3 grid__item_fluid-3-fancy js-grid__item">
                   <div class="section-grid__item">
-                    <div class="figure-image section-image"><a class="hover-zoom figure-image__link" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.6" data-arts-cursor-icon="keyboard_arrow_right" data-arts-cursor-hide-native="true" href="projects-slider-fullscreen-3.html" target="_blank">
+                    <div class="figure-image section-image"><a class="hover-zoom figure-image__link" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.6" data-arts-cursor-icon="keyboard_arrow_right" data-arts-cursor-hide-native="true" href="blog-grid-single-post-1.html">
                         <!-- zoom effect container -->
                         <div class="hover-zoom__inner">
                           <div class="hover-zoom__zoom">
@@ -305,7 +402,7 @@
                 </div>
                 <div class="grid__item grid__item_desktop-4 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-3 grid__item_fluid-3-fancy js-grid__item">
                   <div class="section-grid__item">
-                    <div class="figure-image section-image"><a class="hover-zoom figure-image__link" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.6" data-arts-cursor-icon="keyboard_arrow_right" data-arts-cursor-hide-native="true" href="projects-slider-fullscreen-4.html" target="_blank">
+                    <div class="figure-image section-image"><a class="hover-zoom figure-image__link" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.6" data-arts-cursor-icon="keyboard_arrow_right" data-arts-cursor-hide-native="true" href="blog-grid-single-post-1.html">
                         <!-- zoom effect container -->
                         <div class="hover-zoom__inner">
                           <div class="hover-zoom__zoom">
@@ -327,7 +424,7 @@
                 </div>
                 <div class="grid__item grid__item_desktop-4 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-3 grid__item_fluid-3-fancy js-grid__item">
                   <div class="section-grid__item">
-                    <div class="figure-image section-image"><a class="hover-zoom figure-image__link" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.6" data-arts-cursor-icon="keyboard_arrow_right" data-arts-cursor-hide-native="true" href="projects-slider-fullscreen-5.html" target="_blank">
+                    <div class="figure-image section-image"><a class="hover-zoom figure-image__link" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.6" data-arts-cursor-icon="keyboard_arrow_right" data-arts-cursor-hide-native="true" href="blog-grid-single-post-1.html">
                         <!-- zoom effect container -->
                         <div class="hover-zoom__inner">
                           <div class="hover-zoom__zoom">
@@ -349,7 +446,7 @@
                 </div>
                 <div class="grid__item grid__item_desktop-4 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-3 grid__item_fluid-3-fancy js-grid__item">
                   <div class="section-grid__item">
-                    <div class="figure-image section-image"><a class="hover-zoom figure-image__link" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.6" data-arts-cursor-icon="keyboard_arrow_right" data-arts-cursor-hide-native="true" href="projects-slider-halfscreen-6.html" target="_blank">
+                    <div class="figure-image section-image"><a class="hover-zoom figure-image__link" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.6" data-arts-cursor-icon="keyboard_arrow_right" data-arts-cursor-hide-native="true" href="blog-grid-single-post-1.html">
                         <!-- zoom effect container -->
                         <div class="hover-zoom__inner">
                           <div class="hover-zoom__zoom">
@@ -371,7 +468,7 @@
                 </div>
                 <div class="grid__item grid__item_desktop-4 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-3 grid__item_fluid-3-fancy js-grid__item">
                   <div class="section-grid__item">
-                    <div class="figure-image section-image"><a class="hover-zoom figure-image__link" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.6" data-arts-cursor-icon="keyboard_arrow_right" data-arts-cursor-hide-native="true" href="projects-slider-halfscreen-7.html" target="_blank">
+                    <div class="figure-image section-image"><a class="hover-zoom figure-image__link" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.6" data-arts-cursor-icon="keyboard_arrow_right" data-arts-cursor-hide-native="true" href="blog-grid-single-post-1.html">
                         <!-- zoom effect container -->
                         <div class="hover-zoom__inner">
                           <div class="hover-zoom__zoom">
@@ -393,7 +490,7 @@
                 </div>
                 <div class="grid__item grid__item_desktop-4 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-3 grid__item_fluid-3-fancy js-grid__item">
                   <div class="section-grid__item">
-                    <div class="figure-image section-image"><a class="hover-zoom figure-image__link" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.6" data-arts-cursor-icon="keyboard_arrow_right" data-arts-cursor-hide-native="true" href="projects-slider-halfscreen-8.html" target="_blank">
+                    <div class="figure-image section-image"><a class="hover-zoom figure-image__link" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.6" data-arts-cursor-icon="keyboard_arrow_right" data-arts-cursor-hide-native="true" href="blog-grid-single-post-1.html">
                         <!-- zoom effect container -->
                         <div class="hover-zoom__inner">
                           <div class="hover-zoom__zoom">
@@ -415,7 +512,7 @@
                 </div>
                 <div class="grid__item grid__item_desktop-4 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-3 grid__item_fluid-3-fancy js-grid__item">
                   <div class="section-grid__item">
-                    <div class="figure-image section-image"><a class="hover-zoom figure-image__link" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.6" data-arts-cursor-icon="keyboard_arrow_right" data-arts-cursor-hide-native="true" href="projects-slider-circle-covers-10.html" target="_blank">
+                    <div class="figure-image section-image"><a class="hover-zoom figure-image__link" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.6" data-arts-cursor-icon="keyboard_arrow_right" data-arts-cursor-hide-native="true" href="blog-grid-single-post-1.html">
                         <!-- zoom effect container -->
                         <div class="hover-zoom__inner">
                           <div class="hover-zoom__zoom">
@@ -439,7 +536,128 @@
             </div>
           </section>
           <!-- - section GRID DEMO 3 COLUMNS -->
-        </div>
+        </main>
+        <!-- PAGE FOOTER -->
+        <footer class="footer container-fluid bg-light-1" id="page-footer" data-arts-theme-text="dark" data-arts-footer-logo="primary">
+          <!-- widgets top area -->
+          <div class="footer__area pt-md-5 pt-sm-3 pb-md-3 pb-sm-1 pt-2 pb-0">
+            <div class="row">
+              <!-- call to action -->
+              <div class="col-lg-5">
+                <section class="widget widget_rhye_cta">
+                  <!-- header -->
+                  <h2 class="h2 mt-0 mb-0-5">Our vision is to change the world through innovation and inspire businesses to grow.</h2>
+                  <!-- - header -->
+                  <!-- button --><a class="button button_solid button_black mb-0-5" data-hover="Get in Touch" href="page-inner-contacts-1.html"><span class="button__label-hover">Get in Touch</span></a>
+                  <!-- - button -->
+                </section>
+              </div>
+              <!-- - call to action -->
+              <div class="col-lg-7">
+                <div class="row justify-content-lg-end">
+                  <!-- widget MENU #3 -->
+                  <div class="col-lg-3 col-sm-6 col-12">
+                    <section class="widget widget_nav_menu">
+                      <!-- header -->
+                      <h2 class="widgettitle">Services</h2>
+                      <!-- - header -->
+                      <!-- content -->
+                      <ul class="menu js-menu">
+                        <li><a href="#">Social Media Marketing</a>
+                        </li>
+                        <li><a href="#">Search Engine Optimization</a>
+                        </li>
+                        <li><a href="#">Advanced Web Analytics</a>
+                        </li>
+                        <li><a href="#">Email Marketing</a>
+                        </li>
+                        <li><a href="#">Pay Per Click</a>
+                        </li>
+                        <li><a href="#">Content Strategy</a>
+                        </li>
+                        <li><a href="#">Web Design</a>
+                        </li>
+                        <li><a href="#">UI/UX</a>
+                        </li>
+                        <li><a href="">WebGl Experiences</a></li>
+                      </ul>
+                      <!-- - content -->
+                    </section>
+                  </div>
+                  <!-- - widget MENU #3 -->
+                  <!-- widget MENU #4 -->
+                  <div class="col-lg-3 col-sm-6 col-12">
+                    <section class="widget widget_nav_menu">
+                      <!-- header -->
+                      <h2 class="widgettitle">Links</h2>
+                      <!-- - header -->
+                      <!-- content -->
+                      <ul class="menu js-menu">
+                        <li><a href="page-inner-services-1.html">Services</a>
+                        </li>
+                        <li><a href="page-inner-about-1.html">About</a>
+                        </li>
+                        <li><a href="blog-grid-2-columns.html">Blog</a>
+                        </li>
+                        <li><a href="page-inner-contacts-1.html">Contacts</a>
+                        </li>
+                      </ul>
+                      <!-- - content -->
+                    </section>
+                  </div>
+                  <!-- - widget MENU #4 -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- - widgets top area -->
+          <!-- widgets bottom area -->
+          <div class="footer__area footer__area-border-top pt-sm-3 pb-sm-1 pt-2 pb-0">
+            <div class="row align-items-center">
+              <!-- widget LOGO -->
+              <div class="col-lg-3 footer__column text-center text-lg-left order-lg-1">
+                <section class="widget widget_rhye_logo">
+                  <!-- content --><a class="logo" href="index.html" target="_blank">
+                    <div class="logo__wrapper-img">
+                      <!-- primary logo version (for light backgrounds)--><!-- <img class="logo__img-primary" src="img/general/logo-black.svg" alt="Advent Trinity Logo" height="20"/> -->
+                      <!-- secondary logo version (for dark backgrounds)--><!-- <img class="logo__img-secondary" src="img/general/logo-white.svg" alt="Advent Trinity Logo" height="20"/> -->
+                    </div></a>
+                  <!-- - content -->
+                </section>
+              </div>
+              <!-- - widget LOGO -->
+              <!-- widget SOCIAL -->
+              <div class="col-lg-3 footer__column text-center text-lg-right order-lg-3">
+                <section class="widget widget_rhye_social">
+                  <!-- content -->
+                  <ul class="social">
+                    <li class="social__item"><a class="fa fa-facebook-f" href="https://www.facebook.com/adventtrinity/"></a></li>
+                    <li class="social__item"><a class="fa fa-twitter" href="https://twitter.com/adventtrinity"></a></li>
+                    <li class="social__item"><a class="fa fa-instagram" href="https://www.instagram.com/adventtrinity/"></a></li>
+                    <li class="social__item"><a class="fa fa-youtube-play" href="https://www.youtube.com/channel/UCukBxA8jkf-pOBlDis_Accw"></a></li>
+                    <li class="social__item"><a class="fa fa-linkedin" href="https://www.linkedin.com/company/advent-trinity-dfw/"></a></li>
+                  </ul>
+                  <!-- - content -->
+                </section>
+              </div>
+              <!-- - widget SOCIAL -->
+              <!-- widget TEXT -->
+              <div class="col-lg-6 footer__column text-center text-lg-center order-lg-2">
+                <section class="widget widget_text">
+                  <!-- content -->
+                  <div class="textwidget">
+                    <p><small>© 2021 Advent Trinity Marketing Agency – All Rights Reserved.</small></p>
+                  </div>
+                  <!-- - content -->
+                </section>
+              </div>
+              <!-- - widget TEXT -->
+            </div>
+          </div>
+          <!-- - widgetst bottom area -->
+        </footer>
+        <!-- - PAGE FOOTER -->
+      </div>
       <!-- - PAGE MAIN -->
     </div>
     <canvas id="js-webgl"></canvas>
