@@ -12238,5 +12238,9 @@ small, .small {
     font-size: calc(var(--paragraph-max-font-size) * 1px);
   }
 }
+/* Changed the text on the header to be white for the text that was split */
+.header__widget-content.split-text>p>div .split-text__line {
+  color:#fff;
+}
 
 /*# sourceMappingURL=main.css.map */
