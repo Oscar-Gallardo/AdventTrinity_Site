@@ -420,6 +420,18 @@ function initComponents({
 		Scroll.scrollToAnchorFromHash(2600);
 	}
 
+	/* if((scope.find('.js-hub-form')) && (scope.find('.js-hub-form').length == 1)) {
+		hbspt.forms.create({
+			region: "na1",
+			portalId: "5253502",
+			formId: "af532295-dfd9-43e7-abc1-36f4be132355"
+		  });
+	} */
+
+	console.log(scope.find('.js-hub-form').length);
+	if(scope.find('.js-hub-form').length == 1){
+		/* $('.js-hub-form').load("hubspot-form.html", ()=>{alert("Load was performed.")}); */
+	}
 	//
 	// your custom plugins init here
 	//

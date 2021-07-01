@@ -12242,5 +12242,23 @@ small, .small {
 .header__widget-content.split-text>p>div .split-text__line {
   color:#fff;
 }
-
+/* Changed the display of the hubspot form to be centered */
+ul {
+  list-style: none;
+}
+.hub_form {
+  display: flex;
+}
+.hbspt-form > form > fieldset > .hs_what_is_your_monthly_budget_, .hbspt-form > form > .hs_recaptcha {
+  margin-bottom: 0.5rem;
+}
+.hs-input[type=checkbox], .hs-input[type=radio] {
+  cursor: pointer;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 3px 10px 3px 0px;
+  line-height: normal;
+  border: none;
+}
 /*# sourceMappingURL=main.css.map */
