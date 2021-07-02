@@ -305,6 +305,7 @@ function initComponents({
 	container = window.$pageWrapper,
 	scrollToHashElement = true
 }) {
+	var hbs
 
 	// init page header one time only
 	if (typeof window.theme.header === 'undefined') {
@@ -431,6 +432,11 @@ function initComponents({
 	console.log(scope.find('.js-hub-form').length);
 	if(scope.find('.js-hub-form').length == 1){
 		/* $('.js-hub-form').load("hubspot-form.html", ()=>{alert("Load was performed.")}); */
+		hbspt.forms.create({
+			region: "na1",
+			portalId: "5253502",
+			formId: "af532295-dfd9-43e7-abc1-36f4be132355"
+		  });
 	}
 	//
 	// your custom plugins init here
