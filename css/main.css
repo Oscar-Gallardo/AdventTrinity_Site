@@ -3502,6 +3502,9 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
 .header_sticky[data-arts-header-sticky-logo="secondary"] .logo__text-tagline {
   color: var(--color-gray-2);
 }
+.header_sticky #menu_title .menu_text {
+  color: #fff;
+}
 
 /* ======================================================================== */
 /* 37. headerThemes */
@@ -3576,6 +3579,10 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
 
 .header.opened[data-arts-header-overlay-theme="dark"] .header__burger:hover .header__burger-line {
   background-color: #fff;
+}
+
+.header.opened[data-arts-header-overlay-theme="dark"] .menu_text {
+  color: var(--color-gray-1);
 }
 
 .header.opened[data-arts-header-overlay-theme="dark"] a {
